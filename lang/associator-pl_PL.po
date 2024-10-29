@@ -1,0 +1,473 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Associator\n"
+"POT-Creation-Date: 2019-03-10 12:18+0100\n"
+"PO-Revision-Date: 2019-03-10 12:50+0100\n"
+"Last-Translator: Maciej Swoboda <maciej.swoboda@gmail.com>\n"
+"Language-Team: Maciej Swoboda <maciej.swoboda@gmail.com>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: associator.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/class-associator-settings.php:34
+#: classes/class-associator-settings.php:36
+#: classes/class-associator-widget.php:15
+msgid "Associator"
+msgstr "Associator"
+
+#: classes/class-associator-settings.php:52
+#: classes/class-associator-settings.php:69
+#: vendor/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:147
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: classes/class-associator-settings.php:53
+#: classes/class-associator-settings.php:72
+msgid "Display options"
+msgstr "Opcje wyświetlania"
+
+#: classes/class-associator-settings.php:54
+#: classes/class-associator-settings.php:75
+msgid "Reports"
+msgstr "Raporty"
+
+#: classes/class-associator-settings.php:100
+msgid "Getting Started"
+msgstr "Pierwsze kroki"
+
+#: classes/class-associator-settings.php:102
+#, php-format
+msgid "Read the docs to get started with Associator. %sGo to docs &rarr;%s"
+msgstr ""
+"Przeczytaj dokumentację, aby rozpocząć pracę z Associatorem. %sPrzejdź do "
+"dokumentacji &rarr;%s"
+
+#: classes/class-associator-settings.php:106
+#: classes/class-associator-settings.php:108
+msgid "API key"
+msgstr "Klucz API"
+
+#: classes/class-associator-settings.php:109
+msgid ""
+"API key is required to use Associator platform. You won't see any "
+"recomendations until you register for a key."
+msgstr ""
+"Do korzystania z platformy Associator wymagany jest klucz API. Rekomendacje "
+"nie będą wyświetlane, dopóki nie zarejestrujesz się w celu uzyskania klucza."
+
+#: classes/class-associator-settings.php:113
+#: classes/class-associator-settings.php:118
+#: vendor/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:134
+msgid "Support"
+msgstr "Wsparcie"
+
+#: classes/class-associator-settings.php:119
+msgid ""
+"How popular a product set is. Measured by the percentage of orders in which "
+"a product set exists."
+msgstr ""
+"Jak popularny jest dany zestaw produktów. Mierzone odsetkiem zamówień, w "
+"których istnieje dany zestaw produktów."
+
+#: classes/class-associator-settings.php:123
+#: classes/class-associator-settings.php:128
+msgid "Confidence"
+msgstr "Zaufanie"
+
+#: classes/class-associator-settings.php:129
+msgid "How likely a product is purchased when other products are purchased."
+msgstr ""
+"Prawdopodobieństwo zakupu danego produktu przy zakupie innych produktów."
+
+#: classes/class-associator-settings.php:137
+#: classes/class-associator-settings.php:139
+msgid "Single product recommendations"
+msgstr "Rekomendacje na stronie produktu"
+
+#: classes/class-associator-settings.php:140
+msgid "Display recommendations on single product pages."
+msgstr "Wyświetlaj rekomendacje na stronach produktów."
+
+#: classes/class-associator-settings.php:144
+#: classes/class-associator-settings.php:146
+msgid "Hide related products"
+msgstr "Ukryj powiązane produkty"
+
+#: classes/class-associator-settings.php:147
+msgid "Hide default WooCommerce related products on single product pages."
+msgstr "Ukryj domyślne produkty powiązane z WooCommerce na stronach produktów."
+
+#: classes/class-associator-settings.php:151
+#: classes/class-associator-settings.php:153
+msgid "Cart recommendations"
+msgstr "Rekomendacje na stronie koszyka"
+
+#: classes/class-associator-settings.php:154
+msgid "Display recommendations on the cart page."
+msgstr "Wyświetlaj rekomendacje na stronie koszyka."
+
+#: classes/class-associator-settings.php:158
+#: classes/class-associator-settings.php:160
+msgid "Hide cross sells"
+msgstr "Ukryj produkty cross-sell"
+
+#: classes/class-associator-settings.php:161
+msgid "Hide default WooCommerce cross sells on the cart page."
+msgstr "Ukryj domyślne produkty cross-sell z WooCommerce na stronie koszyka."
+
+#: classes/class-associator-widget.php:16
+msgid "Boost your sales with perfect product recommendations."
+msgstr "Zwiększ sprzedaż dzięki doskonałym rekomendacjom produktowym."
+
+#: classes/class-associator-widget.php:35
+msgid "Recommendations"
+msgstr "Rekomendacje"
+
+#: classes/class-associator-widget.php:39
+msgid "Title:"
+msgstr "Tytuł:"
+
+#: classes/class-associator-widget.php:43
+msgid "The maximum number of recommendations:"
+msgstr "Maksymalna liczba rekomendowanych produktów:"
+
+#: classes/class-associator.php:76
+msgid "Customers Who Bought This Item Also Bought"
+msgstr "Klienci, którzy kupili ten przedmiot kupili również"
+
+#: classes/class-associator.php:88
+msgid "You may be interested in&hellip;"
+msgstr "Może cię również zainteresować&hellip;"
+
+#: classes/views/admin-report.php:62
+msgid "Generating reports..."
+msgstr "Generowanie raportów...."
+
+#: classes/views/admin-report.php:66
+msgid "All orders"
+msgstr "Wszystkie zamówienia"
+
+#: classes/views/admin-report.php:68
+msgid "Date range:"
+msgstr "Zakres dat:"
+
+#: classes/views/admin-report.php:74
+msgid "Views of recommendations"
+msgstr "Wyświetlenia rekomendacji"
+
+#: classes/views/admin-report.php:78
+msgid "Clicks on recommendations"
+msgstr "Kliknięcia w rekomendacje"
+
+#: classes/views/admin-report.php:82
+msgid "Added to cart from recommendations"
+msgstr "Dodane do koszyka z rekomendacji"
+
+#: classes/views/admin-report.php:86
+msgid "Bought from recommendations"
+msgstr "Kupione z rekomendacji"
+
+#: classes/views/admin-section.php:43
+msgid "Export historic orders"
+msgstr "Eksportuj zamówienia historyczne"
+
+#: classes/views/admin-section.php:61
+msgid "Exporting... Please don't leave this page until export is finished."
+msgstr ""
+"Eksportowanie... Nie opuszczaj tej strony do momentu zakończenia eksportu."
+
+#: classes/views/admin-section.php:62
+msgid "Oops, something went wrong. Please try again."
+msgstr "Coś poszło nie tak. Spróbuj ponownie."
+
+#: classes/views/admin-section.php:63
+msgid ""
+"Historic orders have been exported successfully! Recommendations will be "
+"displayed on your website after the data has been processed in our system "
+"(this may take several hours)."
+msgstr ""
+"Historyczne zamówienia zostały pomyślnie wyeksportowane! Rekomendacje "
+"zostaną wyświetlone na Twojej stronie po przetworzeniu danych przez nasz "
+"system (może to potrwać kilka godzin)."
+
+#: classes/views/admin-section.php:64
+msgid "API key is active. Associator is working."
+msgstr "Klucz API jest aktywny. Associator działa."
+
+#: classes/views/admin-section.php:65
+msgid "API key is invalid. Please enter a valid API key."
+msgstr "Klucz API jest błędny. Proszę wpisać poprawny klucz API."
+
+#: classes/views/admin-section.php:66
+msgid ""
+"API key is inactive. This means your subscription has expired, has been "
+"cancelled or refunded."
+msgstr ""
+"Klucz API jest nieaktywny. Oznacza to, że subskrypcja mogła wygasnąć, zostać "
+"anulowana lub zwrócona."
+
+#: vendor/10up/wp_mock/tests/FunctionMocksTest.php:65
+msgid "Test"
+msgstr "Test"
+
+#: vendor/10up/wp_mock/tests/FunctionMocksTest.php:75
+#: vendor/10up/wp_mock/tests/FunctionMocksTest.php:77
+msgid "Input"
+msgstr "Input"
+
+#: vendor/wpdesk/wc-helpers/src/WC/RequirementChecker.php:67
+#: vendor/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:170
+#, php-format
+msgid ""
+"The &#8220;%s&#8221; plugin cannot run on WooCommerce versions older than "
+"%s. Please update WooCommerce."
+msgstr ""
+"Wtyczka &#8220;%s&#8221; nie może działać w wersjach WooCommerce starszych "
+"niż %s. Prosimy o aktualizację WooCommerce."
+
+#: vendor/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:162
+#, php-format
+msgid ""
+"The &#8220;%s&#8221; plugin cannot run on PHP versions older than %s. Please "
+"contact your host and ask them to upgrade."
+msgstr ""
+"Wtyczka &#8220;%s&#8221; nie może działać w wersjach PHP starszych niż %s. "
+"Skontaktuj się z administratorem hostingu i poproś o aktualizację."
+
+#: vendor/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:166
+#, php-format
+msgid ""
+"The &#8220;%s&#8221; plugin cannot run on WordPress versions older than %s. "
+"Please update WordPress."
+msgstr ""
+"Wtyczka &#8220;%s&#8221; nie może działać w wersjach WordPress starszych niż "
+"%s. Prosimy o aktualizację WordPress."
+
+#: vendor/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:174
+#, php-format
+msgid ""
+"The &#8220;%s&#8221; plugin cannot run without OpenSSL module version at "
+"least %s. Please update OpenSSL module."
+msgstr ""
+"Wtyczka &#8220;%s&#8221; nie może działać bez aktywacji OpenSSL co najmniej "
+"w wersji %s. Zaktualizuj wersję OpenSSL."
+
+#: vendor/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:262
+#, php-format
+msgid ""
+"The &#8220;%s&#8221; plugin cannot run without %s active. Please install and "
+"activate %s plugin."
+msgstr ""
+"Wtyczka &#8220;%s&#8221; nie może działać bez aktywacji %s. Zainstaluj i "
+"aktywuj wtyczkę %s."
+
+#: vendor/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:298
+#, php-format
+msgid ""
+"The &#8220;%s&#8221; plugin cannot run without %s php module installed. "
+"Please contact your host and ask them to install %s."
+msgstr ""
+"Wtyczka &#8220;%s&#8221; nie może działać bez modułu php: %s. Skontaktuj się "
+"z administratorem hostingu i poproś o instalację %s."
+
+#: vendor/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:326
+#, php-format
+msgid ""
+"The &#8220;%s&#8221; plugin cannot run without %s php setting set to %s. "
+"Please contact your host and ask them to set %s."
+msgstr ""
+"Wtyczka &#8220;%s&#8221; nie może działać bez ustawienia php %s ustawionego "
+"na %s. Skontaktuj się z administratorem hostingu i poproś o ustawienie %s."
+
+#: vendor/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:140
+msgid "Docs"
+msgstr "Docs"
+
+#: vendor/wpdesk/wp-settings/source/class.s214-settings.php:144
+#: vendor/wpdesk/wp-settings/source/class.s214-settings.php:146
+#: vendor/wpdesk/wp-settings/source/class.wpdesk-s214-settings.php:66
+#: vendor/wpdesk/wp-settings/source/class.wpdesk-s214-settings.php:68
+msgid "Section214 Settings"
+msgstr "Ustawienia"
+
+#: vendor/wpdesk/wp-settings/source/class.s214-settings.php:591
+msgid "Your settings have been saved."
+msgstr "Ustawienia zostały zapisane."
+
+#: vendor/wpdesk/wp-settings/source/class.s214-settings.php:976
+#: vendor/wpdesk/wp-settings/source/class.wpdesk-s214-settings.php:836
+msgid ""
+"To copy the system info, click below then press Ctrl + C (PC) or Cmd + C "
+"(Mac)."
+msgstr ""
+"Aby skopiować informację, kliknij poniżej, a następnie naciśnij Ctrl + C "
+"(PC) lub Cmd + C (Mac)."
+
+#: vendor/wpdesk/wp-settings/source/class.s214-settings.php:979
+#: vendor/wpdesk/wp-settings/source/class.wpdesk-s214-settings.php:841
+msgid "Download System Info File"
+msgstr "Pobierz raport systemu"
+
+#: vendor/wpdesk/wp-settings/source/class.s214-settings.php:1059
+#: vendor/wpdesk/wp-settings/source/class.wpdesk-s214-settings.php:909
+msgid "Upload File"
+msgstr "Dodaj plik"
+
+#: vendor/wpdesk/wp-settings/source/class.s214-settings.php:1089
+#: vendor/wpdesk/wp-settings/source/class.wpdesk-s214-settings.php:935
+msgid "Deactivate License"
+msgstr "Dezaktywuj licencję"
+
+#: vendor/wpdesk/wp-settings/source/class.s214-settings.php:1120
+#, php-format
+msgid ""
+"The callback function used for the <strong>%s</strong> setting is missing."
+msgstr "Funkcja callback dla ustawień <strong>%s</strong> nie istnieje."
+
+#: vendor/wpdesk/wp-settings/source/class.s214-settings.php:1210
+#: vendor/wpdesk/wp-settings/source/class.wpdesk-s214-settings.php:1052
+msgid "Insert Image"
+msgstr "Wstaw obrazek"
+
+#: vendor/wpdesk/wp-settings/source/class.s214-settings.php:1211
+#: vendor/wpdesk/wp-settings/source/class.wpdesk-s214-settings.php:1053
+msgid "Select Image"
+msgstr "Wybierz obrazek"
+
+#: vendor/wpdesk/wp-settings/source/modules/licensing/S214_Plugin_Updater.php:188
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr "Dostępna jest nowa wersja %1$s. %2$s Zobacz %3$sszczegóły wersji%4$s."
+
+#: vendor/wpdesk/wp-settings/source/modules/licensing/S214_Plugin_Updater.php:196
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Jest dostępna nowa wersja %1$s. %2$sZobacz szczegóły wersji %3$s%4$s lub "
+"%5$szaktualizuj teraz%6$s."
+
+#: vendor/wpdesk/wp-settings/source/modules/licensing/S214_Plugin_Updater.php:340
+msgid "You do not have permission to install plugin updates"
+msgstr "Nie masz uprawnień do instalacji aktualizacji wtyczki"
+
+#: vendor/wpdesk/wp-settings/source/modules/licensing/S214_Plugin_Updater.php:340
+#: vendor/wpdesk/wp-settings/source/modules/licensing/class.s214-license.php:197
+#: vendor/wpdesk/wp-settings/source/modules/licensing/class.s214-license.php:270
+msgid "Error"
+msgstr "Błąd"
+
+#: vendor/wpdesk/wp-settings/source/modules/licensing/class.s214-license.php:141
+msgid "Licensing"
+msgstr "Licencje"
+
+#: vendor/wpdesk/wp-settings/source/modules/licensing/class.s214-license.php:159
+#, php-format
+msgid "%1$s License Key"
+msgstr "Klucz licencyjny %1$s"
+
+#: vendor/wpdesk/wp-settings/source/modules/licensing/class.s214-license.php:160
+msgid "Please enter your license key to enable automatic updates and support."
+msgstr ""
+"Wpisz swój klucz licencyjny, aby włączyć automatyczne aktualizacje i "
+"wsparcie."
+
+#: vendor/wpdesk/wp-settings/source/modules/licensing/class.s214-license.php:197
+#: vendor/wpdesk/wp-settings/source/modules/licensing/class.s214-license.php:270
+msgid "Nonce verification failed"
+msgstr "Błąd zabezpieczeń (nonce)"
+
+#: vendor/wpdesk/wp-settings/source/modules/licensing/class.s214-license.php:352
+msgid "This license does not belong to the product you have entered it for."
+msgstr "Wpisany klucz licencyjny nie należy do tego produktu."
+
+#: vendor/wpdesk/wp-settings/source/modules/licensing/class.s214-license.php:357
+msgid "This license does not have any activations left"
+msgstr "Licencja nie posiada już wolnych aktywacji"
+
+#: vendor/wpdesk/wp-settings/source/modules/licensing/class.s214-license.php:362
+msgid "This license key is expired. Please renew it."
+msgstr "Ten klucz licencyjny wygasł. Proszę odnów go."
+
+#: vendor/wpdesk/wp-settings/source/modules/licensing/class.s214-license.php:367
+#, php-format
+msgid ""
+"There was a problem activating your license key, please try again or contact "
+"support. Error code: %s"
+msgstr ""
+"Wystąpił błąd przy aktywacji twojego klucza licencji, proszę spróbować "
+"ponownie lub skontaktować się z obsługą. Kod błędu: %s"
+
+#~ msgid "Application is not active."
+#~ msgstr "Aplikacja nie jest aktywna"
+
+#~ msgid ""
+#~ "By registering your store, you will receive a unique API key, which will "
+#~ "be automatically saved in the settings of the Associator plugin."
+#~ msgstr ""
+#~ "Rejestrując swój sklep, otrzymasz unikalny klucz API, który zostanie "
+#~ "automatycznie zapisany w ustawieniach wtyczki Associator."
+
+#~ msgid ""
+#~ "After registering the API key, information about new orders will be "
+#~ "exported to the Associator platform automatically. We will use this data "
+#~ "to create the best recommendations for your store and we promise not to "
+#~ "share these data with any third parties."
+#~ msgstr ""
+#~ "Po zarejestrowaniu klucza API, informacje o nowych zamówieniach będą "
+#~ "automatycznie eksportowane na platformę Associator. Wykorzystamy te dane "
+#~ "do stworzenia najlepszych rekomendacji dla Twojego sklepu i obiecujemy "
+#~ "nie udostępniać tych danych firmom trzecim."
+
+#~ msgid ""
+#~ "I agree to the %1$sTerms of Service%3$s and to %2$sshare details with the "
+#~ "Associator service%3$s."
+#~ msgstr ""
+#~ "Akceptuję %1$sregulamin%3$s i %2$sprzesyłanie danych o zamówieniach do "
+#~ "platformy Associator%3$s."
+
+#~ msgid "Continue and create application"
+#~ msgstr "Kontynuuj i utwórz aplikację"
+
+#~ msgid "Get the API key"
+#~ msgstr "Wygeneruj klucz API"
+
+#~ msgid "Creating application..."
+#~ msgstr "Tworzenie aplikacji..."
+
+#~ msgid ""
+#~ "The %s%s%s License Key has not been activated, so the plugin is inactive! "
+#~ "%sClick here%s to activate the license key and the plugin."
+#~ msgstr ""
+#~ "Klucz licencyjny wtyczki %s%s%s nie został aktywowany, więc wtyczka jest "
+#~ "nieaktywna! %sKliknij tutaj%s, aby aktywować klucz licencyjny wtyczki."
+
+#~ msgid "Historic orders have been exported successfully!"
+#~ msgstr "Historyczne zamówienia zostały pomyślnie wyeksportowane!"
+
+#~ msgid "https://www.wpdesk.net/products/associator/"
+#~ msgstr "https://www.wpdesk.pl/sklep/associator/"
+
+#~ msgid "WP Desk"
+#~ msgstr "WP Desk"
+
+#~ msgid "https://www.wpdesk.net/"
+#~ msgstr "https://www.wpdesk.pl/"
+
+#~ msgid "Associator - tool to display related products."
+#~ msgstr "Associator - narzędzie do wyświetlania produktów powiązanych."

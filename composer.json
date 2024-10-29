@@ -1,0 +1,49 @@
+{
+    "name": "wpdesk/associator",
+    "authors": [
+        {
+            "name": "Tomasz Tarnawski",
+            "email": "tarnawski27@gmail.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6",
+        "ext-json": "*",
+        "wpdesk/wp-autoloader": "^1.0",
+        "wpdesk/wp-basic-requirements": "^2.0",
+        "wpdesk/wp-builder": "^1.0",
+        "wpdesk/wp-settings": "^1.0",
+        "tarnawski/associator-php-sdk": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.3",
+        "sebastian/phpcpd": "^4.0",
+        "squizlabs/php_codesniffer": "^3.3",
+        "phpcompatibility/php-compatibility": "^9.0",
+        "mockery/mockery": "*",
+        "10up/wp_mock": "*",
+        "wpdesk/wc-tests": "dev-master",
+        "wpdesk/wc-helpers": "dev-master"
+    },
+    "autoload": {
+        "classmap": ["classes/"]
+    },
+    "autoload-dev": {
+        "classmap": ["tests/"]
+    },
+    "archive": {
+        "exclude": [
+            "!vendor/*",
+            ".*",
+            "tests",
+            "docker-compose.yml",
+            "auth.json",
+            "phpunit.xml.dist",
+            "phpcs.xml.dist",
+            "readme.md",
+            "composer.phar"
+        ]
+    }
+}
